@@ -18,6 +18,7 @@ This guide is an entry for [bring-the-humans-02](https://make.fun/c/bring-the-hu
 - [Build, check, and submit](#build-check-and-submit)
 - [Results and prize claims](#results-and-prize-claims)
 - [Practical tips from real experience](#practical-tips-from-real-experience)
+- [Your first week](#your-first-week)
 - [Earn with your own referral link](#earn-with-your-own-referral-link)
 - [FAQ](#faq)
 - [Useful links and your next step](#useful-links-and-your-next-step)
@@ -135,7 +136,20 @@ These are habits to apply during your build, with timing and rule checks given t
 - **Start the session after opening.** Check the opening time before launching your agent. An older session does not become eligible just because you continue it later.
 - **Follow every submission with `status`.** A command finishing is your cue to verify the entry state. If it was rejected, read every failed check's fix before trying again.
 - **Keep an honest, visible work sequence.** Stay in one session where you can: write, run, then improve. A draft followed by a revision is exactly the progression transcript checks expect to see.
+- **Turn the rules into a preflight list.** Before you ask your agent to build, note required files, repository visibility and license, judging criteria, and how to enter. Check off each item as you go instead of relying on memory near the deadline.
+- **Protect time for the final handoff.** Reserve time to run the final check, create the bundle, submit, and confirm status. Avoid a last-minute change that leaves no time to regenerate the bundle or verify the latest submission.
+- **Keep your signing setup ready.** Link your own wallet, complete CLI login, and know where your keypair is before your entry is ready. The signature is good for ten minutes and one entry, so leave signing until the submission details are prepared.
 - **Share your referral link early.** The first referral code a visitor's browser sees is the one that binds, and it holds for 60 days.
+
+## Your first week
+
+Use this as a flexible sequence, not a substitute for the competition's actual opening and deadline. Bounty windows vary, so let the posted schedule decide when to begin building.
+
+- **Get oriented:** create your account, complete your profile, link GitHub and a Solana wallet, and look through the board for a bounty that interests you.
+- **Before the build:** read the bounty page and all of `RULES.txt`; note the opening, phase deadlines, judging method, rewards, and submission caps. Install or confirm Node.js 22+ and download the kit.
+- **At opening:** start a fresh agent session only after the bounty opens. Work through the requirements, run the project, and improve it in a clear sequence.
+- **Before submitting:** make sure the repository and commit are ready, bundle the right sessions, run `check`, and leave time to resolve any findings.
+- **After submitting:** run `status`, review any rejection and its fixes, and keep an eye on results. If you win, note the claim window and claim from the wallet that signed the entry.
 
 ## Earn with your own referral link
 
@@ -162,6 +176,18 @@ It helps, but your agent writes the code. Your role is to choose the bounty, und
 ### Which agents work?
 
 The kit automatically finds Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Qwen Code, opencode, Cline, Roo Code, Kilo Code, Aider, and dozens more. Other agents can supply their session file to `bundle`.
+
+### Can I keep working in a session I already started?
+
+Not if it began before the bounty opened. Start a fresh session after opening so the transcript timestamps fall inside the competition window.
+
+### Can I submit more than once?
+
+Submission limits vary by bounty and can include both daily and total caps. Check the bounty rules and `status` for your remaining quota. A rejected submission still uses a daily slot, and the newest submission is the one that counts.
+
+### Which wallet receives a prize?
+
+The wallet that signed the entry receives the claim. Confirm your linked wallet and signing setup before entering, and claim within 30 days after the result becomes claimable.
 
 ### What happens to my transcripts?
 
